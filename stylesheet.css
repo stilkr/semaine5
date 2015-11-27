@@ -1,0 +1,82 @@
+.conteneur {
+    margin:15px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+    max-width:960px;
+    
+}
+
+
+#bghead {
+   background-image:url("cross.png");
+   background-attachment:fixed;
+    
+}
+
+#bgmain {
+       background-image:url("halftone.png");
+    background-attachment:fixed;
+    border-radius:20px;
+     -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    column-gap: 10px;
+      font-family: Courier, serif;
+   text-align: left;
+}
+
+ #bgfoot{
+     background-image:url("paper.png");
+    background-attachment:fixed;
+border-radius:20px;
+
+}
+
+table {
+ border-style : hidden;
+  width: 100%;
+}
+
+   th {
+        color: #2ecc71;
+        font-family: Arial;
+        font-size:1.2em;
+        text-align:center;
+    }
+
+
+footer img {
+    display:inline-block;
+    vertical-align: bottom;
+    opacity: 0.08;
+    padding: 30px;
+  
+}
+
+
+
+h1 {
+    font-family: Lobster, sans-serif;
+    font-size: 2em;
+}
+
+
+h1 img{
+max-width:200px;
+max-height:100px; 
+   float: left;    
+   position: relative;
+   padding: 5px 20px 10px 10px;
+}
+
+h2 {
+    font-family: Arial, sans-serif ;
+    color: #2ecc71;
+    font-size: 1.5em;
+text-align:inherit;
+}
+
+ul {
+    list-style-type: circle;
+}
