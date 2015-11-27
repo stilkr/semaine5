@@ -4,34 +4,42 @@
     margin-right:auto;
     padding:10px;
     max-width:960px;
-    
 }
 
 
-#bghead {
+header {
    background-image:url("cross.png");
    background-attachment:fixed;
     
 }
 
-#bgmain {
+main {
        background-image:url("halftone.png");
     background-attachment:fixed;
-    border-radius:20px;
-     -webkit-column-count: 3;
+          font-family: Courier, serif;
+   text-align: left;
+
+}
+
+#corps {
+      -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
-    column-gap: 10px;
-      font-family: Courier, serif;
-   text-align: left;
+    
+    -webkit-column-width: 320px;
+    column-width: 320px;
+    
+    -moz-column-gap:10px;
+        -webkit-column-gap:10px;
+        -o-column-gap:10px;
+        column-gap:10px;
 }
 
- #bgfoot{
+footer {
      background-image:url("paper.png");
     background-attachment:fixed;
-border-radius:20px;
-
 }
+
 
 table {
  border-style : hidden;
